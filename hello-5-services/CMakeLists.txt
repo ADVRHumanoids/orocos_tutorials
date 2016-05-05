@@ -24,7 +24,7 @@ include(${OROCOS-RTT_USE_FILE_PATH}/UseOROCOS-RTT.cmake)
 
 # Creates an orocos executable HelloWorld
 orocos_use_package(ocl-taskbrowser)
-orocos_executable(HelloWorld6 hello-5-services/HelloWorld.cpp) # ...you may add multiple source files
+orocos_executable(HelloWorld5 hello-5-services/HelloWorld.cpp) # ...you may add multiple source files
 
 #
 # Makes this an installable/usable package for other packages.

@@ -28,3 +28,27 @@ PROJECT(orocos_tutorials)
 
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/helloworld/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-1-task-execution/CMakeLists.txt)
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-1-task-execution-solution/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-2-properties/CMakeLists.txt)
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-2-properties-solution/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-3-dataports/CMakeLists.txt)
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-3-dataports-solution/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-4-operations/CMakeLists.txt)
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-4-operations-solution/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-5-services/CMakeLists.txt)
+
+#include(${CMAKE_CURRENT_SOURCE_DIR}/hello-6-scripting/CMakeLists.txt) <-- Uncomment this when you resolve the exercise!
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-6-scripting-solution/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/hello-7-deployment/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/controller-1/CMakeLists.txt)
+include(${CMAKE_CURRENT_SOURCE_DIR}/controller-1-solution/CMakeLists.txt)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/controller-youbot/CMakeLists.txt)

@@ -23,7 +23,7 @@ find_package(OROCOS-RTT REQUIRED ${RTT_HINTS})
 include(${OROCOS-RTT_USE_FILE_PATH}/UseOROCOS-RTT.cmake)
 
 # Creates an orocos component HelloWorld
-orocos_component(HelloWorld5_solution hello-4-operations/HelloWorld.cpp) # ...you may add multiple source files
+orocos_component(HelloWorld4_solution hello-4-operations-solution/HelloWorld.cpp) # ...you may add multiple source files
 
 #
 # Makes this an installable/usable package for other packages.

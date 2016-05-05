@@ -26,10 +26,10 @@ find_package(OROCOS-RTT REQUIRED rtt-marshalling)
 include(${OROCOS-RTT_USE_FILE_PATH}/UseOROCOS-RTT.cmake)
 
 # Creates an orocos component HelloWorld
-orocos_component(HelloWorld3_solution hello-2-properties/HelloWorld.cpp) # ...you may add multiple source files
+orocos_component(HelloWorld2_solution hello-2-properties-solution/HelloWorld.cpp) # ...you may add multiple source files
 
 # Link with marshalling library because we use it in the C++ code:
-target_link_libraries(HelloWorld ${OROCOS-RTT_RTT-MARSHALLING_LIBRARY} )
+target_link_libraries(HelloWorld2_solution ${OROCOS-RTT_RTT-MARSHALLING_LIBRARY} )
 
 # Exercise:
 # See : http://www.orocos.org/wiki/orocos/toolchain/getting-started/cmake-and-building
