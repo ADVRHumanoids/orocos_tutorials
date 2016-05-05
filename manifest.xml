@@ -1,0 +1,8 @@
+<package>
+    <description brief="orocos_tutorials">
+        This package contains tutorials for OROCOS
+    </description>
+    <license></license>
+		<author>Enrico Mingo Hoffman</author>
+</package>
+
